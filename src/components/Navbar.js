@@ -16,8 +16,8 @@ const Navbar = () => {
     <nav >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="flex items-center">
+         <img src={require('../assets/logo.PNG')} alt="Logo" width={50} height={50} className="w-auto h-auto rounded-full mr-4" />
          
-          <img src="../assets/logo.png" alt="Cat Logo" width={50} height={50} className="w-auto h-auto rounded-full mr-4" />
         
         </div>
         <ul className="hidden md:flex space-x-4 text-black">

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Services = () => {
   const services = [
@@ -17,7 +18,21 @@ const Services = () => {
       description: 'Ensuring your lawn and garden stay healthy and flourishing.',
       icon: 'fa-solid fa-tint',
     },
-    // Add more services here if needed
+    {
+      title: 'Veterinary',
+      description: 'Providing exceptional care for your furry friends.',
+      icon: 'fa-solid fa-paw',
+    },
+    {
+      title: 'Landscaping',
+      description: 'Transforming your outdoor space into a beautiful oasis.',
+      icon: 'fa-solid fa-spade',
+    },
+    {
+      title: 'Irrigation',
+      description: 'Ensuring your lawn and garden stay healthy and flourishing.',
+      icon: 'fa-solid fa-tint',
+    },
   ];
 
   const [isCardHovered, setIsCardHovered] = useState(null);
